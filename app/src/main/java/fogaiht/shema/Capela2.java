@@ -9,9 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 /**
- * Created by thiago on 20/01/17.
+ * Created by thiag on 20/01/2017.
  */
-public class Cronograma extends AppCompatActivity{
+public class Capela2 extends AppCompatActivity {
 
     ListView listView;
 
@@ -46,6 +46,18 @@ public class Cronograma extends AppCompatActivity{
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 }
             }
+            // ListView Clicked item index
+//                int itemPosition     = position;
+
+            // ListView Clicked item value
+//                String  itemValue    = (String) listView.getItemAtPosition(position);
+
+            // Show Alert
+//                Toast.makeText(getApplicationContext(),
+//                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
+//                        .show();
+
+
         });
     }
 

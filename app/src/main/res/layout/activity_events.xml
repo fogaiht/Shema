@@ -11,20 +11,9 @@
     tools:context="fogaiht.shema.Cronograma">
 
     <ListView
-        android:id="@+id/list_day1_central"
+        android:id="@+id/list_day"
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/day1"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

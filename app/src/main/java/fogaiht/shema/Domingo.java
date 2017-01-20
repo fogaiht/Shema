@@ -5,29 +5,28 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ListView;
 
 /**
- * Created by thiago on 20/01/17.
+ * Created by thiag on 20/01/2017.
  */
-public class Sabado extends AppCompatActivity {
+public class Domingo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_day1);
+        setContentView(R.layout.activity_day2);
 
-        ImageButton iniciar = (ImageButton) findViewById(R.id.ac_day1);
+        ImageButton iniciar = (ImageButton) findViewById(R.id.ac_day2);
         iniciar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), ACentro1.class));
+                startActivity(new Intent(getBaseContext(), ACentro2.class));
             }
         });
 
-        ImageButton iniciar1 = (ImageButton) findViewById(R.id.capela_day1);
+        ImageButton iniciar1 = (ImageButton) findViewById(R.id.capela_day2);
         iniciar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), Capela1.class));
+                startActivity(new Intent(getBaseContext(), Capela2.class));
             }
         });
     }

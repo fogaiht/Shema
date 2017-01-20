@@ -2,6 +2,20 @@
     <string name="app_name">Shema</string>
     <string name="crono">Cronograma</string>
     <string name="historia">História</string>
-    <string name="faq">Fale Conosco</string>
-    <string name="help">Como Chegar</string>
+    <string name="faq">Site</string>
+    <string name="help">Mapa</string>
+    <string name="title_activity_history">Sobre o Shemá</string>
+    <string name="large_text">
+        "   A ideia do Projeto foi apresentada pelo Padre João Evangelista ao Ministério de Música Tabernáculo, após a celebração das 09:30h, no dia 15/11/2015, na Comunidade Santa Clara.
+            Ele disse que durante a Missa ficou pensando em um Evento, que envolvesse música, adoração e as comunidades da paróquia, especialmente voltado para os jovens. Disse ainda que havia em seu pensamento um nome, Shemá, e nos pediu que nos colocássemos a serviço, para que esse propósito se tornasse realidade.
+            Tão logo o Ministério se dispôs, e no dia seguinte aconteceu a 1ª reunião para tratar a respeito, na qual foi assumido o compromisso de oração diário, terço diário, na intenção do Shemá.       As ideias foram evoluindo, Deus foi direcionando, e no dia 22/12/2015 houve uma reunião com o Pe. João, na qual foi apresentado o esboço do projeto. Ele aprovou tudo, e pediu que as pessoas fossem chamadas a servir. Ainda nesta reunião o padre direcionou uma leitura bíblica: Samuel Capítulo 3,1-10. Que relata um chamado de Deus para Samuel. Aconteceu no Santuário, onde estava a Arca de Deus, o objeto mais sagrado, representação Própria de Deus entre os homens, que por sua vez ficava dentro do Tabernáculo, uma tenda, uma Tenda Móvel - Morada do Senhor.
+            Assim surgiu o "Shemá, Deus chama!""
+    </string>
+    <string name="shema_cit">"Shemá - palavra oriunda do hebraico, que significa ouve, escuta!
+Portanto: Escuta, Deus chama!</string>
+    <string name="large_text2">
+        "   Surgiu em resposta a um chamado de Deus, assim como chamou por Samuel… Chamou pelo Ministério Tabernáculo, chama a cada um de nós, chama por nossas comunidades, e por muitos outros que sequer sabemos quem são, onde estão, de onde virão... Sabemos apenas que Deus chama, por isso estamos aqui!
+       Que possamos responder sempre, assim como Samuel: "Fala Senhor, teu servo escuta"
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -57,8 +57,8 @@ public class Mapa extends Activity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap map) {
         map.addMarker(new MarkerOptions()
-                .position(new LatLng(-18.945672, -48.307686))
-                .title("Churras #TodosPelaJoice"));
+                .position(new LatLng(-18.9376529,-48.3015137))
+                .title("Shemá, Deus Chama!"));
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
 
     }

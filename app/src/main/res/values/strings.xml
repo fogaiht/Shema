@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Shema</string>
+    <string name="crono">Cronograma</string>
+    <string name="historia">História</string>
+    <string name="faq">Fale Conosco</string>
+    <string name="help">Como Chegar</string>
 </resources>

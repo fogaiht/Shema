@@ -16,7 +16,7 @@
         android:layout_width="322.5dp"
         android:layout_height="225dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo2" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:layout_alignTop="@+id/historia"
             android:layout_marginEnd="33dp"
             android:layout_marginRight="33dp"
-            android:background="@drawable/eventos" />
+            android:background="@drawable/logo2" />
 
         <ImageButton
             android:id="@+id/historia"
@@ -46,7 +46,7 @@
             android:layout_marginBottom="141dp"
             android:layout_marginLeft="33dp"
             android:layout_marginStart="33dp"
-            android:background="@drawable/history" />
+            android:background="@drawable/logo2" />
 
         <TextView
             android:id="@+id/textView5"
@@ -80,7 +80,7 @@
             android:layout_alignStart="@+id/historia"
             android:layout_below="@+id/textView2"
             android:layout_marginTop="13dp"
-            android:background="@drawable/carrinho" />
+            android:background="@drawable/logo2" />
 
         <ImageButton
             android:id="@+id/help"
@@ -89,7 +89,7 @@
             android:layout_alignLeft="@+id/events"
             android:layout_alignStart="@+id/events"
             android:layout_alignTop="@+id/carrinho"
-            android:background="@drawable/helps" />
+            android:background="@drawable/logo2" />
 
         <TextView
             android:id="@+id/textView6"

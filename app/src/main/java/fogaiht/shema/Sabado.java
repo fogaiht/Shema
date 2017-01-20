@@ -11,7 +11,7 @@ import android.widget.ListView;
 /**
  * Created by thiago on 20/01/17.
  */
-public class Cronograma extends AppCompatActivity{
+public class Sabado extends AppCompatActivity{
 
     ListView listView;
 
@@ -24,14 +24,8 @@ public class Cronograma extends AppCompatActivity{
         listView = (ListView) findViewById(R.id.list_day1_central);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\n\nSábado",
-                "02/04/2017\n\nDomingo"
-//                "Simple List View In Android",
-//                "Create List View Android",
-//                "Android Example",
-//                "List View Source Code",
-//                "List View Array Adapter",
-//                "Android Example List View"
+        String[] values = new String[]{"Capela",
+                "Área Central"
         };
 
         // Define a new Adapter
@@ -53,7 +47,7 @@ public class Cronograma extends AppCompatActivity{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    startActivity(new Intent(getBaseContext(), Sabado.class));
+                    startActivity(new Intent(getBaseContext(), Churras.class));
                 } else if (position == 1) {
                     startActivity(new Intent(getBaseContext(), Loja.class));
                 }

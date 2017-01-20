@@ -24,8 +24,12 @@ public class Capela1 extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\n\nSábado",
-                "02/04/2017\n\nDomingo"
+        String[] values = new String[]{"15:45\n\nEquipe",
+                "16:00\n\nMomento Cura e Libertação: Maísa (Grupo de Oração Jesus de Nazaré" +
+                        " – Com. Sto. Agostinho) Ministério de Música Camila Max",
+                "17:00\n\nAdoração e Louvor: Camila Max e Ministério de Música.",
+                "18:00\n\nEquipe conduz Encerramento",
+                "18:10\n\nSantíssimo com equipe de Intercessão até 21h"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -44,20 +48,14 @@ public class Capela1 extends AppCompatActivity {
                     startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 1) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 2) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 3) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 4) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
                 }
             }
-            // ListView Clicked item index
-//                int itemPosition     = position;
-
-            // ListView Clicked item value
-//                String  itemValue    = (String) listView.getItemAtPosition(position);
-
-            // Show Alert
-//                Toast.makeText(getApplicationContext(),
-//                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-//                        .show();
-
-
         });
     }
 

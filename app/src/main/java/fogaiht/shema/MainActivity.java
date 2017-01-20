@@ -13,14 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton iniciar = (ImageButton) findViewById(R.id.help);
+        ImageButton iniciar = (ImageButton) findViewById(R.id.mapa);
         iniciar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), Mapa.class));
             }
         });
 
-        ImageButton iniciar1 = (ImageButton) findViewById(R.id.carrinho);
+        ImageButton iniciar1 = (ImageButton) findViewById(R.id.site);
         iniciar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), Faq.class));

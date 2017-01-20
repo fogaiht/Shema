@@ -24,8 +24,18 @@ public class Capela2 extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\n\nSábado",
-                "02/04/2017\n\nDomingo"
+        String[] values = new String[]{"08:00\n\nMissa Pe. João Evangelista e " +
+                "Ministério de Música Amar-te Mais",
+                "09:50\n\nAdoração Contemplativa com a Equipe de Intercessão",
+                "12:30\n\nEquipe Conduz!",
+                "12:40\n\nTestemunho/Condução:" +
+                        " Rodrigo Santana e Banda",
+                "13:40\n\nEquipe conduz (Troca de Músicos)",
+                "13:50\n\nTestemunho/Pregação Mariana: " +
+                        "Cristina (Comunidade Luz da Vida)",
+                "14:50\n\nEquipe conduz (Troca de Músicos)",
+                "15:00\n\nAdoração e Louvor - Ministério Chagas",
+                "16:00\n\nEquipe conduz encerramento e direciona para Área Central"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -44,20 +54,22 @@ public class Capela2 extends AppCompatActivity {
                     startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 1) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 2) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 3) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 4) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 5) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 6) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 7) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 8) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
                 }
             }
-            // ListView Clicked item index
-//                int itemPosition     = position;
-
-            // ListView Clicked item value
-//                String  itemValue    = (String) listView.getItemAtPosition(position);
-
-            // Show Alert
-//                Toast.makeText(getApplicationContext(),
-//                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-//                        .show();
-
-
         });
     }
 

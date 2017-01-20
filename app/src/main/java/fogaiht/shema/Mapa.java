@@ -21,12 +21,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class Mapa extends Activity implements OnMapReadyCallback {
 
-    private LatLng location = new LatLng(-18.9376529, -48.3015137);
+    private LatLng location = new LatLng(-18.937693, -48.299304);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.mapa);
 
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.map);
@@ -40,7 +40,7 @@ public class Mapa extends Activity implements OnMapReadyCallback {
 //                startActivity(new Intent(getBaseContext(), VideoGalery.class));
                 try {
                     //Abrir app Google Maps
-                    Uri gmmIntentUri = Uri.parse("google.navigation:q=-18.9376529,-48.3015137");
+                    Uri gmmIntentUri = Uri.parse("google.navigation:q=-18.937693, -48.299304");
                     Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                     mapIntent.setPackage("com.google.android.apps.maps");
                     startActivity(mapIntent);
@@ -57,10 +57,8 @@ public class Mapa extends Activity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap map) {
         map.addMarker(new MarkerOptions()
-                .position(new LatLng(-18.9376529,-48.3015137))
+                .position(new LatLng(-18.937693, -48.299304))
                 .title("Shemá, Deus Chama!"));
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 17));
-
     }
-
 }

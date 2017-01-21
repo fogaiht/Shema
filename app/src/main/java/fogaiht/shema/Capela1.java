@@ -18,18 +18,18 @@ public class Capela1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_events_capela);
 
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"15:45\n\nEquipe",
-                "16:00\n\nMomento Cura e Libertação: Maísa (Grupo de Oração Jesus de Nazaré" +
+        String[] values = new String[]{"15:45\nEquipe",
+                "16:00\nMomento Cura e Libertação: Maísa (Grupo de Oração Jesus de Nazaré" +
                         " – Com. Sto. Agostinho) Ministério de Música Camila Max",
-                "17:00\n\nAdoração e Louvor: Camila Max e Ministério de Música.",
-                "18:00\n\nEquipe conduz Encerramento",
-                "18:10\n\nSantíssimo com equipe de Intercessão até 21h"
+                "17:00\nAdoração e Louvor: Camila Max e Ministério de Música.",
+                "18:00\nEquipe conduz Encerramento",
+                "18:10\nSantíssimo com equipe de Intercessão até 21h"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

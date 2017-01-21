@@ -18,14 +18,30 @@ public class ACentro1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_events_ac);
 
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\n\nSábado",
-                "02/04/2017\n\nDomingo"
+        String[] values = new String[]{"14:00\nMissa Pe. João Evangelista e Pe Rogério" +
+                "\nMinistério de Música Sagrada Face",
+                "15:40\nEquipe Conduz",
+                "15:50\nCristina\n(Comunidade Luz da Vida)\n\nMinistério Ruah",
+                "16:40\nEquipe Conduz",
+                "16:50\nPregação\nO chamado de Deus... Escuta, Deus Chama!\n" +
+                        "Luciano\n\nMinistério Ruah",
+                "17:50\nEquipe Conduz",
+                "18:00\nTeatro\nComunidade Brisa Leve",
+                "18:40\nEquipe Conduz",
+                "18:50\nShow e Condução\nJoão Victor Mariano",
+                "19:50\nEquipe Conduz\n(Breve intervalo para jantar)",
+                "20:10\nEquipe 'Convida a voltar'",
+                "20:15\nShow e Condução\nAlex\nComunidade Vida Missão",
+                "21:15\nEquipe Conduz\n(Troca de Músicos)",
+                "21:30\nAdoração\nFernandinho (Comunidade Cenáculo) e Banda" +
+                        "juntamente com Pe. Marcos Borges",
+                "23:30\nEncerramento\nEquipe"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -44,20 +60,34 @@ public class ACentro1 extends AppCompatActivity {
                     startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 1) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 2) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 3) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 4) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 5) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 6) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 7) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 8) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 9) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 10) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 11) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 12) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 13) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 14) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
                 }
             }
-            // ListView Clicked item index
-//                int itemPosition     = position;
-
-            // ListView Clicked item value
-//                String  itemValue    = (String) listView.getItemAtPosition(position);
-
-            // Show Alert
-//                Toast.makeText(getApplicationContext(),
-//                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-//                        .show();
-
-
         });
     }
 

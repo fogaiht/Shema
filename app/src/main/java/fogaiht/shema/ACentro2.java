@@ -18,14 +18,32 @@ public class ACentro2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_events_ac);
 
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\n\nSábado",
-                "02/04/2017\n\nDomingo"
+        String[] values = new String[]{"09:30\nEquipe\nBreve intervalo café da manhã",
+                "09:50\nEquipe Conduz",
+                "10:00\nPregação Família\nAlex Soares e Banda\nComunidade Vida Missão" +
+                        "\nO que tem vivido em família, momento de cura" +
+                        " e libertação, Manto Exorcizado",
+                "11:20\nEquipe Conduz\nTroca de Músicos",
+                "11:30\nPregação Família\nJoão Victor Mariano\nTestemunho, Compromisso/Atitude" +
+                        " para sua família!",
+                "12:30\nEquipe Conduz\nBreve intervalo para almoço",
+                "12:55\nEquipe 'Convida a voltar'",
+                "13:00\nPregação\nDiácono Fábio Mendes\nBanda: Sacra Luz",
+                "14:00\nEquipe Conduz",
+                "14:10\nPregação e Testemunho\nTânia e Alberto Jr.",
+                "15:10\nEquipe Conduz",
+                "15:20\nShow Comunidade Brisa Leve",
+                "16:20\nEquipe Conduz",
+                "16:30\nPregação de Fechamento\nAlex (Comunidade Vida Missão)" +
+                        "\nBanda Comunidade Vida Missão",
+                "17:30\nENCERRAMENTO\nBenção do Santíssimo" +
+                        "\nPe. Marcos e Comunidade Vida Missão"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -44,20 +62,34 @@ public class ACentro2 extends AppCompatActivity {
                     startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 1) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 2) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 3) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 4) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 5) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 6) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 7) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 8) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 9) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 10) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 11) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 12) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 13) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                } else if (position == 14) {
+                    startActivity(new Intent(getBaseContext(), Domingo.class));
                 }
             }
-            // ListView Clicked item index
-//                int itemPosition     = position;
-
-            // ListView Clicked item value
-//                String  itemValue    = (String) listView.getItemAtPosition(position);
-
-            // Show Alert
-//                Toast.makeText(getApplicationContext(),
-//                        "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-//                        .show();
-
-
         });
     }
 

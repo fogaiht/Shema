@@ -18,24 +18,24 @@ public class Capela2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_events_capela);
 
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"08:00\n\nMissa Pe. João Evangelista e " +
+        String[] values = new String[]{"08:00\nMissa Pe. João Evangelista e " +
                 "Ministério de Música Amar-te Mais",
-                "09:50\n\nAdoração Contemplativa com a Equipe de Intercessão",
-                "12:30\n\nEquipe Conduz!",
-                "12:40\n\nTestemunho/Condução:" +
+                "09:50\nAdoração Contemplativa com a Equipe de Intercessão",
+                "12:30\nEquipe Conduz!",
+                "12:40\nTestemunho/Condução:" +
                         " Rodrigo Santana e Banda",
-                "13:40\n\nEquipe conduz (Troca de Músicos)",
-                "13:50\n\nTestemunho/Pregação Mariana: " +
+                "13:40\nEquipe conduz (Troca de Músicos)",
+                "13:50\nTestemunho/Pregação Mariana: " +
                         "Cristina (Comunidade Luz da Vida)",
-                "14:50\n\nEquipe conduz (Troca de Músicos)",
-                "15:00\n\nAdoração e Louvor - Ministério Chagas",
-                "16:00\n\nEquipe conduz encerramento e direciona para Área Central"
+                "14:50\nEquipe conduz (Troca de Músicos)",
+                "15:00\nAdoração e Louvor - Ministério Chagas",
+                "16:00\nEquipe conduz encerramento e direciona para Área Central"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

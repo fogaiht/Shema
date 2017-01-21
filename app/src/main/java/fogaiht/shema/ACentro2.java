@@ -16,6 +16,12 @@ public class ACentro2 extends AppCompatActivity {
     ListView listView;
 
     @Override
+    public void onBackPressed()
+    {
+        startActivity(new Intent(getBaseContext(), Domingo.class));
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events_ac);
@@ -59,31 +65,31 @@ public class ACentro2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    startActivity(new Intent(getBaseContext(), Sabado.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 1) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 2) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 3) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 4) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 5) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 6) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 7) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 8) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 9) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 10) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 11) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 12) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro2.class));
                 } else if (position == 13) {
                     startActivity(new Intent(getBaseContext(), Domingo.class));
                 } else if (position == 14) {
@@ -92,5 +98,4 @@ public class ACentro2 extends AppCompatActivity {
             }
         });
     }
-
 }

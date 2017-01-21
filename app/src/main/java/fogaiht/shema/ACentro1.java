@@ -1,5 +1,6 @@
 package fogaiht.shema;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +15,12 @@ import android.widget.ListView;
 public class ACentro1 extends AppCompatActivity {
 
     ListView listView;
+
+    @Override
+    public void onBackPressed()
+    {
+        startActivity(new Intent(getBaseContext(), Sabado.class));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +46,7 @@ public class ACentro1 extends AppCompatActivity {
                 "20:10\nEquipe 'Convida a voltar'",
                 "20:15\nShow e Condução\nAlex\nComunidade Vida Missão",
                 "21:15\nEquipe Conduz\n(Troca de Músicos)",
-                "21:30\nAdoração\nFernandinho (Comunidade Cenáculo) e Banda" +
+                "21:30\nAdoração\nFernandinho (Comunidade Cenáculo) e Banda " +
                         "juntamente com Pe. Marcos Borges",
                 "23:30\nEncerramento\nEquipe"
         };
@@ -59,33 +66,33 @@ public class ACentro1 extends AppCompatActivity {
                 if (position == 0) {
                     startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 1) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 2) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 3) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 4) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 5) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 6) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 7) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 8) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 9) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 10) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 11) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 12) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 } else if (position == 13) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 14) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), ACentro1.class));
                 }
             }
         });

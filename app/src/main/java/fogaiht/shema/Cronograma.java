@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
+import android.support.v7.widget.Toolbar;
 /**
  * Created by thiago on 20/01/17.
  */
@@ -16,9 +16,18 @@ public class Cronograma extends AppCompatActivity{
     ListView listView;
 
     @Override
+    public void onBackPressed()
+    {
+        startActivity(new Intent(getBaseContext(), MainActivity.class));
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_cronograma);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list_day);
@@ -48,5 +57,4 @@ public class Cronograma extends AppCompatActivity{
             }
         });
     }
-
 }

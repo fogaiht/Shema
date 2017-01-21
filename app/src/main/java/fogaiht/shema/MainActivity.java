@@ -1,12 +1,35 @@
 package fogaiht.shema;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private boolean backPressedToExitOnce = false;
+    private Toast toast = null;
+
+    @Override
+    public void onBackPressed() {
+        if (backPressedToExitOnce) {
+            super.onBackPressed();
+            return;
+        }
+
+        this.backPressedToExitOnce = true;
+        Toast.makeText(this, "Pressione de novo para sair", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                backPressedToExitOnce=false;
+            }
+        }, 2000);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +63,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), Cronograma.class));
             }
         });
-
     }
 }

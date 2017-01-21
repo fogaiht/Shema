@@ -16,6 +16,12 @@ public class Capela1 extends AppCompatActivity {
     ListView listView;
 
     @Override
+    public void onBackPressed()
+    {
+        startActivity(new Intent(getBaseContext(), Sabado.class));
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events_capela);
@@ -45,18 +51,17 @@ public class Capela1 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    startActivity(new Intent(getBaseContext(), Sabado.class));
+                    startActivity(new Intent(getBaseContext(), Capela1.class));
                 } else if (position == 1) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 2) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 } else if (position == 3) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Capela1.class));
                 } else if (position == 4) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
+                    startActivity(new Intent(getBaseContext(), Sabado.class));
                 }
             }
         });
     }
-
 }

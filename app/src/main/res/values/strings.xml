@@ -11,6 +11,8 @@
     <string name="day2">Domingo</string>
     <string name="historia">Sobre</string>
     <string name="faq">Site</string>
+    <string name="site">https://www.shemadeuschama.com/</string>
+    <string name="sitePatrocinadores">https://www.shemadeuschama.com/patrocinadores</string>
     <string name="help">Mapa</string>
     <string name="title_activity_history">Sobre o Shemá</string>
     <string name="title_cronograma">Cronograma</string>

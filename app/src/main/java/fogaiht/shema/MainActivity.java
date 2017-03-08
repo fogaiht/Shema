@@ -1,6 +1,7 @@
 package fogaiht.shema;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -46,7 +47,10 @@ public class MainActivity extends AppCompatActivity {
         ImageButton iniciar1 = (ImageButton) findViewById(R.id.site);
         iniciar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), Faq.class));
+                String site = "https://www.shemadeuschama.com/";
+                Uri uri = Uri.parse(site); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
 

@@ -21,10 +21,14 @@
             <!--</intent-filter>-->
         <!--</activity>-->
 
-        <activity android:name=".MainActivity2"
+        <activity android:name=".MainActivity"
             android:label="@string/title_main"
             android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".History"
@@ -56,16 +60,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/api_maps_key" />
 
-        <activity
-            android:name=".MainScroll"
-            android:label="@string/title_activity_main_scroll"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

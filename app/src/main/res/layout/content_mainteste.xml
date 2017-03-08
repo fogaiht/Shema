@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="fogaiht.shema.MainScroll"
-    tools:showIn="@layout/activity_mainteste">
+    tools:showIn="@layout/activity_main_scroll">
 
     <LinearLayout
         android:id="@+id/LL"
@@ -69,6 +69,29 @@
                 android:layout_alignStart="@+id/events"
                 android:layout_alignTop="@+id/site"
                 android:background="@drawable/mapa" />
+
+            <ImageButton
+                android:id="@+id/alimento"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/historia"
+                android:layout_marginEnd="33dp"
+                android:layout_marginRight="33dp"
+                android:background="@drawable/crono" />
+
+            <ImageButton
+                android:id="@+id/advert"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/sobre" />
 
             <TextView
                 android:id="@+id/cronoText"

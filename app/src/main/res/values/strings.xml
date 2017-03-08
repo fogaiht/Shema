@@ -16,6 +16,7 @@
     <string name="help">Mapa</string>
     <string name="title_activity_history">Sobre o Shemá</string>
     <string name="title_cronograma">Cronograma</string>
+    <string name="title_main">Shemá, Deus Chama!</string>
     <string name="title_mapa">Local do Evento</string>
     <string name="large_text">"      A ideia do Projeto foi apresentada pelo Padre João Evangelista ao Ministério de Música Tabernáculo, após a celebração das 09:30h, no dia 15/11/2015, na Comunidade Santa Clara.
         Ele disse que durante a Missa ficou pensando em um Evento, que envolvesse música, adoração e as comunidades da paróquia, especialmente voltado para os jovens. Disse ainda que havia em seu pensamento um nome, Shemá, e nos pediu que nos colocássemos a serviço, para que esse propósito se tornasse realidade.
@@ -26,8 +27,9 @@
     <string name="shema_cit">"Shemá - palavra oriunda do hebraico, que significa ouve, escuta!
 Portanto: Escuta, Deus chama!</string>
     <string name="large_text2">
-        "       Surgiu em resposta a um chamado de Deus, assim como chamou por Samuel… Chamou pelo Ministério Tabernáculo, chama a cada um de nós, chama por nossas comunidades, e por muitos outros que sequer sabemos quem são, onde estão, de onde virão... Sabemos apenas que Deus chama, por isso estamos aqui!
+        "       Surgiu em resposta a um chamado de Deus, assim como chamou por Samuel… Chamou pelo Ministério Tabernáculo, chama a cada um de nós, chama por nossas comunidades, e por muitos outros que sequer sabemos quem são, onde estão, de onde virão… Sabemos apenas que Deus chama, por isso estamos aqui!
        Que possamos responder sempre, assim como Samuel: "Fala Senhor, teu servo escuta"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main_scroll">Shemá, Deus Chama!</string>
 </resources>

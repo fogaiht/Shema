@@ -37,7 +37,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Pregadores"
-            android:label="@string/title_patroc"
+            android:label="@string/title_preg"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity android:name=".ACentro1" />

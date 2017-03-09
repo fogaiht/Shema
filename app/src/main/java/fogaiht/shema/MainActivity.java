@@ -72,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        ImageButton iniciar4 = (ImageButton) findViewById(R.id.preg);
-//        iniciar4.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                startActivity(new Intent(getBaseContext(), Pregadores.class));
-//            }
-//        });
+        ImageButton iniciar4 = (ImageButton) findViewById(R.id.pregad);
+        iniciar4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), Pregadores.class));
+            }
+        });
 
         ImageButton iniciar5 = (ImageButton) findViewById(R.id.advert);
         iniciar5.setOnClickListener(new View.OnClickListener() {

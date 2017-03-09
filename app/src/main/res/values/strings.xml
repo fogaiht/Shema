@@ -21,7 +21,7 @@
     <string name="title_cronograma">Cronograma</string>
     <string name="title_main">Shemá, Deus Chama!</string>
     <string name="title_mapa">Local do Evento</string>
-    <string name="title_patroc">Patrocinadores</string>
+    <string name="title_preg">Pregadores</string>
     <string name="au">Ouro</string>
     <string name="pt">Prata</string>
     <string name="brz">Bronze</string>
@@ -39,4 +39,52 @@ Portanto: Escuta, Deus chama!</string>
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_scroll">Shemá, Deus Chama!</string>
+
+    <string name="fernandinho">"Fernandinho"</string>
+    <string name="fernandinhotext">"
+        Fernando A. Costa, nasceu na cidade de Franca, em nove de janeiro de um mil novecentos e oitenta e seis, o jovem Fernando Antônio Costa. De família católica, desde sua infância, Deus despertou um sentido único de viver, fazendo dele uma pessoa especial, chamado a viver o céu e levar a presença de Deus aos que mais precisam, através da Mãe, Maria Santíssima.
+        Em várias situações de sua infância mostrou ter um dom diferente, o qual Deus foi moldando aos poucos, aos 12 anos, juntamente com sua Mãe, sua tia e um primo, iniciou aquilo que no futuro seria a Comunidade Cenáculo Imaculado Coração de Maria. Tudo nasceu no seu coração, plantado por Deus e cultivado com o cuidado especial da Virgem Maria.
+        Hoje, fundador da Comunidade Cenáculo ("Em Tudo Ser de Deus" - A palavra fundante da qual nasce o carisma da comunidade é “Eis aqui a serva do Senhor, faça-se em mim segundo a vossa palavra” (Lc 1, 38). A contemplação do mistério da encarnação é alimento da nossa identidade, pois ela expressa com toda a riqueza de detalhes o que é viver de fato a radicalidade da vontade de Deus.), é Pai Espiritual de muitos filhos que seguem a Cristo através da Comunidade. Ensina, corrige, ama, sofre, cuida, chora por cada um daqueles que com ele buscam viver a radicalidade do Evangelho, aprendendo com Jesus e o tendo como espelho daquilo que precisamos sonhar para vivermos verdadeiramente como filhos, amando Deus em tudo e buscando Deus em todos.
+
+        “Um Coração Adorador nunca volta atrás”"</string>
+
+    <string name="jv">"João Victor Mariano</string>
+    <string name="jvtext">"
+        João Victor Mariano é membro fundador da Comunidade Missionária Mãe do Homem Novo de Araxá - MG.
+        Tem evangelizado por meio de palestras, ministrações por todo o Brasil; onde tem levado uma mensagem de Esperança e Fé e Devoção filial para com Maria Santíssima a Mãe de JESUS.
+        É também idealizador do primeiro aplicativo católico lançado para difundir a Consagração à Santíssima Virgem o Salve Maria TK.     Suas canções também têm alcançado grande público dentre elas: Só temos hoje para amar gravada por Rodrigo Ferreira e Michel Teló, Manifesta Tua Glória e Eis ai Tua Mãe gravadas pela Gravadora Canção Nova.
+        Acredita fielmente que o Amor de Deus é a solução para o mundo!
+
+        "Amor á Imaculada Sempre" -  João Victor Mariano"</string>
+    
+    <string name="brisa">Comunidade Brisa Leve</string>
+    <string name="brisatext">"
+        O nome Brisa Leve, teve como inspiração a passagem de 1Reis 19, 11-15: … O Senhor lhe disse: "Saia e fique no monte, na presença do Senhor, pois o Senhor vai passar". Então veio um vento fortíssimo que separou os montes e esmigalhou as rochas diante do Senhor, mas o Senhor não estava no vento. Depois do vento houve um terremoto, mas o Senhor não estava no terremoto. Depois do terremoto houve um fogo, mas o Senhor não estava nele. E depois do fogo houve o murmúrio de uma brisa suave.
+        Quando Elias ouviu, puxou a capa para cobrir o rosto, saiu e ficou à entrada da caverna. E uma voz lhe perguntou: "O que você está fazendo aqui, Elias?"     Ele respondeu: "Tenho sido muito zeloso pelo Senhor, Deus dos Exércitos. Os israelitas rejeitaram a tua aliança, quebraram os teus altares, e mataram os teus profetas à espada. Sou o único que sobrou, e agora também estão procurando matar-me". O Senhor lhe disse: "Volte pelo caminho por aonde veio, e vá para o deserto de Damasco. Chegando lá, unja Hazael como rei da Síria."
+
+        “Depois do terremoto houve um fogo, mas o Senhor não estava nele. E depois do fogo houve o murmúrio de uma brisa suave”.
+
+        O homem da brisa leve é o homem que ouve Deus em seu pior momento… Momento de agonia, tristeza e dor. Ele espera em várias situações pela manifestação de Deus pela qual já obteve respostas, mas a encontra onde não esperava que fosse à forma mais simples… Brisa Suave… Brisa Leve. A esse homem Deus dá uma ordem… Volte ao caminho por aonde veio… Para encontrarmos muitas vezes o caminho nos é necessário voltarmos ao começo. E “Chegando lá, unja…” Chegando onde somos chamados, seja profeta do Altíssimo. Só pode dar aquele que está cheio… Repletos do Espirito Santo.
+        O Encontro de Elias com Deus na caverna é o nosso encontro com Deus em nossos momentos de crises e a maneira de superá-la.
+        É o momento em que precisamos estar atentos para reconhecermos o anjo de Deus que nos alimenta e nos ajuda na caminhada. Brisa Leve, é se converte e se reencontra consigo, com Deus e com a missão.
+
+        Brisa Leve significa o fato que obrigou Elias a mudar radicalmente de vida e o levou a uma visão totalmente nova das coisas."</string>
+    
+    <string name="cristina">"Cristina Mendes"</string>
+    <string name="cris1">"Comunidade Luz da Vida</string>
+    
+    <string name="sface">Sagrada Face</string>
+    <string name="sluz">Sacra Luz</string>
+    <string name="dpaz">Dias de Paz</string>
+    <string name="ssanto">Solo Santo</string>
+    <string name="ruah">Ruah em Missão</string>
+    <string name="amtm">Amar-te Mais</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="alex">Alex Soares</string>
+
+
+
+
+
+
 </resources>

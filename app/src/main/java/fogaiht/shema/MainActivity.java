@@ -89,11 +89,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        ImageButton iniciar6 = (ImageButton) findViewById(R.id.alimento);
-//        iniciar6.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                startActivity(new Intent(getBaseContext(), Praca.class));
-//            }
-//        });
+        ImageButton iniciar6 = (ImageButton) findViewById(R.id.alimento);
+        iniciar6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), Alimentacao.class));
+            }
+        });
     }
 }

@@ -30,22 +30,22 @@ public class ACentro2 extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"09:30\nEquipe\nBreve intervalo café da manhã",
-                "09:50\nEquipe Conduz",
+        String[] values = new String[]{"09:30\nEquipe\nBreve intervalo café da manhã\n",
+                "09:50\nEquipe Conduz\n",
                 "10:00\nPregação Família\nAlex Soares e Banda\nComunidade Vida Missão" +
                         "\nO que tem vivido em família, momento de cura" +
-                        " e libertação, Manto Exorcizado",
-                "11:20\nEquipe Conduz\nTroca de Músicos",
+                        " e libertação, Manto Exorcizado\n",
+                "11:20\nEquipe Conduz\nTroca de Músicos\n",
                 "11:30\nPregação Família\nJoão Victor Mariano\nTestemunho, Compromisso/Atitude" +
-                        " para sua família!",
-                "12:30\nEquipe Conduz\nBreve intervalo para almoço",
-                "12:55\nEquipe 'Convida a voltar'",
-                "13:00\nPregação\nDiácono Fábio Mendes\nBanda: Sacra Luz",
-                "14:00\nEquipe Conduz",
-                "14:10\nPregação e Testemunho\nTânia e Alberto Jr.",
-                "15:10\nEquipe Conduz",
-                "15:20\nShow Comunidade Brisa Leve",
-                "16:20\nEquipe Conduz",
+                        " para sua família!\n",
+                "12:30\nEquipe Conduz\nBreve intervalo para almoço\n",
+                "12:55\nEquipe 'Convida a voltar'\n",
+                "13:00\nPregação\nDiácono Fábio Mendes\nMissão Sacra Luz\n",
+                "14:00\nEquipe Conduz\n",
+                "14:10\nPregação\nCristina (Com. Luz e Vida)\nMissão Sacra Luz\n",
+                "15:10\nEquipe Conduz\n",
+                "15:20\nShow Comunidade Brisa Leve\n",
+                "16:20\nEquipe Conduz\n",
                 "16:30\nPregação de Fechamento\nAlex (Comunidade Vida Missão)" +
                         "\nBanda Comunidade Vida Missão",
                 "17:30\nENCERRAMENTO\nBenção do Santíssimo" +

@@ -31,17 +31,16 @@ public class Capela2 extends AppCompatActivity {
 
         // Defined Array values to show in ListView
         String[] values = new String[]{"08:00\nMissa Pe. João Evangelista e " +
-                "Ministério de Música Amar-te Mais",
-                "09:50\nAdoração Contemplativa com a Equipe de Intercessão",
-                "12:30\nEquipe Conduz!",
+                "Ministério de Música Amar-te Mais\n",
+                "09:50\nAdoração Contemplativa com a Equipe de Intercessão\n",
+                "12:30\nEquipe Conduz!\n",
                 "12:40\nTestemunho/Condução:" +
-                        " Rodrigo Santana e Banda",
-                "13:40\nEquipe conduz (Troca de Músicos)",
-                "13:50\nTestemunho/Pregação Mariana: " +
-                        "Cristina (Comunidade Luz da Vida)",
-                "14:50\nEquipe conduz (Troca de Músicos)",
-                "15:00\nAdoração e Louvor - Ministério Chagas",
-                "16:00\nEquipe conduz encerramento e direciona para Área Central"
+                        " Rodrigo Santana e Banda\n",
+                "13:40\nEquipe conduz (Troca de Músicos)\n",
+                "13:50\nAdoração: Missão Ruah\n",
+                "14:50\nEquipe conduz (Troca de Músicos)\n",
+                "15:00\nAdoração e Louvor - Ministério Chagas\n",
+                "16:00\nEquipe conduz encerramento e direciona para Área Central\n"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

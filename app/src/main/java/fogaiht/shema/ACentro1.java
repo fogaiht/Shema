@@ -32,19 +32,19 @@ public class ACentro1 extends AppCompatActivity {
 
         // Defined Array values to show in ListView
         String[] values = new String[]{"14:00\nMissa Pe. João Evangelista e Pe Rogério" +
-                "\nMinistério de Música Sagrada Face",
-                "15:40\nEquipe Conduz",
-                "15:50\nCristina\n(Comunidade Luz da Vida)\n\nMinistério Ruah",
-                "16:40\nEquipe Conduz",
+                "\nMinistério de Música Sagrada Face\n",
+                "15:40\nEquipe Conduz\n",
+                "15:50\nCristina\n(Comunidade Luz da Vida)\n\nAcompanha: Dias de Paz\n",
+                "16:40\nEquipe Conduz\n",
                 "16:50\nPregação\nO chamado de Deus... Escuta, Deus Chama!\n" +
-                        "Luciano\n\nMinistério Ruah",
-                "17:50\nEquipe Conduz",
-                "18:00\nTeatro\nComunidade Brisa Leve",
-                "18:40\nEquipe Conduz",
-                "18:50\nShow e Condução\nJoão Victor Mariano",
-                "19:50\nEquipe Conduz\n(Breve intervalo para jantar)",
-                "20:10\nEquipe 'Convida a voltar'",
-                "20:15\nShow e Condução\nAlex\nComunidade Vida Missão",
+                        "Luciano\n\nAcompanha: Dias de Paz\n",
+                "17:50\nEquipe Conduz\n",
+                "18:00\nTeatro\nComunidade Brisa Leve\n",
+                "18:40\nEquipe Conduz\n",
+                "18:50\nShow e Condução\nJoão Victor Mariano\n",
+                "19:50\nEquipe Conduz\n(Breve intervalo para jantar)\n",
+                "20:10\nEquipe 'Convida a voltar'\n",
+                "20:15\nShow Alex Soares\n",
                 "21:15\nEquipe Conduz\n(Troca de Músicos)",
                 "21:30\nAdoração\nFernandinho (Comunidade Cenáculo) e Banda " +
                         "juntamente com Pe. Marcos Borges",

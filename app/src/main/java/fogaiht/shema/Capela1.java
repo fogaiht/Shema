@@ -30,12 +30,12 @@ public class Capela1 extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"15:45\nEquipe",
+        String[] values = new String[]{"15:45\nEquipe\n",
                 "16:00\nMomento Cura e Libertação: Maísa (Grupo de Oração Jesus de Nazaré" +
-                        " – Com. Sto. Agostinho) Ministério de Música Camila Max",
-                "17:00\nAdoração e Louvor: Camila Max e Ministério de Música.",
-                "18:00\nEquipe conduz Encerramento",
-                "18:10\nSantíssimo com equipe de Intercessão até 21h"
+                        " – Com. Sto. Agostinho) Ministério Ágape\n",
+                "17:00\nAdoração e Louvor: Camila Max e Ministério de Música\n",
+                "18:00\nEquipe conduz Encerramento\n",
+                "18:10\nSantíssimo com equipe de Intercessão até 21h\n"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

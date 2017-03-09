@@ -56,6 +56,10 @@
         <activity
             android:name=".Alimentacao"
             android:label="@string/title_activity_alimentacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Patrocinadores"
+            android:label="@string/title_activity_patrocinadores"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

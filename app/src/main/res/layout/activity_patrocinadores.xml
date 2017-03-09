@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="fogaiht.shema.Alimentacao">
+    tools:context="fogaiht.shema.Patrocinadores">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -32,6 +32,5 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_alimentacao" />
-
+    <include layout="@layout/content_patrocinadores" />
 </android.support.design.widget.CoordinatorLayout>

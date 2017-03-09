@@ -3,7 +3,8 @@
     <string name="go_to">Local do Evento!</string>
     <string name="rota">Clique abaixo para traçar a rota</string>
     <string name="go_to2">Me leve até Lá!</string>
-    <string name="soon">Em Breve!!</string>
+    <string name="soon">"Em Breve!!"</string>
+    <string name="precos">"Tabela de Preços"</string>
     <string name="api_maps_key">AIzaSyC0aRVqE7vZjCwJ3m3ZpSYEVJ51_Bc4s2A</string>
     <string name="cronog">Cronograma</string>
     <string name="ac">Área Central</string>
@@ -80,9 +81,10 @@ Portanto: Escuta, Deus chama!</string>
     <string name="ssanto">Solo Santo</string>
     <string name="ruah">Ruah em Missão</string>
     <string name="amtm">Amar-te Mais</string>
-    <string name="unknown">Desconhecido</string>
+    <string name="rs">Rodrigo Santana</string>
     <string name="alex">Alex Soares</string>
     <string name="title_activity_alimentacao">Alimentação</string>
+    <string name="title_activity_patrocinadores">Patrocinadores</string>
 
 
 </resources>

@@ -82,10 +82,11 @@ public class MainActivity extends AppCompatActivity {
         ImageButton iniciar5 = (ImageButton) findViewById(R.id.advert);
         iniciar5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                String site = "https://www.shemadeuschama.com/patrocinadores";
-                Uri uri = Uri.parse(site); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+//                String site = "https://www.shemadeuschama.com/patrocinadores";
+//                Uri uri = Uri.parse(site); // missing 'http://' will cause crashed
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                startActivity(intent);
+                startActivity(new Intent(getBaseContext(), Patrocinadores.class));
             }
         });
 

@@ -51,31 +51,31 @@ public class Capela2 extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         // ListView Item Click Listener
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
-                } else if (position == 1) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
-                } else if (position == 2) {
-                    startActivity(new Intent(getBaseContext(), Capela2.class));
-                } else if (position == 3) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
-                } else if (position == 4) {
-                    startActivity(new Intent(getBaseContext(), Capela2.class));
-                } else if (position == 5) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
-                } else if (position == 6) {
-                    startActivity(new Intent(getBaseContext(), Capela2.class));
-                } else if (position == 7) {
-                    startActivity(new Intent(getBaseContext(), Domingo.class));
-                } else if (position == 8) {
-                    startActivity(new Intent(getBaseContext(), Capela2.class));
-                }
-            }
-        });
+//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                if (position == 0) {
+//                    startActivity(new Intent(getBaseContext(), Domingo.class));
+//                } else if (position == 1) {
+//                    startActivity(new Intent(getBaseContext(), Domingo.class));
+//                } else if (position == 2) {
+//                    startActivity(new Intent(getBaseContext(), Capela2.class));
+//                } else if (position == 3) {
+//                    startActivity(new Intent(getBaseContext(), Domingo.class));
+//                } else if (position == 4) {
+//                    startActivity(new Intent(getBaseContext(), Capela2.class));
+//                } else if (position == 5) {
+//                    startActivity(new Intent(getBaseContext(), Domingo.class));
+//                } else if (position == 6) {
+//                    startActivity(new Intent(getBaseContext(), Capela2.class));
+//                } else if (position == 7) {
+//                    startActivity(new Intent(getBaseContext(), Domingo.class));
+//                } else if (position == 8) {
+//                    startActivity(new Intent(getBaseContext(), Capela2.class));
+//                }
+//            }
+//        });
     }
 
 

@@ -52,14 +52,14 @@
                 android:background="@drawable/sobre" />
 
             <ImageButton
-                android:id="@+id/site"
+                android:id="@+id/pregad"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:layout_alignLeft="@+id/historia"
                 android:layout_alignStart="@+id/historia"
-                android:layout_below="@+id/sobreText"
+                android:layout_below="@+id/sbText"
                 android:layout_marginTop="13dp"
-                android:background="@drawable/site" />
+                android:background="@drawable/pregad" />
 
             <ImageButton
                 android:id="@+id/mapa"
@@ -67,7 +67,7 @@
                 android:layout_height="75dp"
                 android:layout_alignLeft="@+id/events"
                 android:layout_alignStart="@+id/events"
-                android:layout_alignTop="@+id/site"
+                android:layout_alignTop="@+id/pregad"
                 android:background="@drawable/mapa" />
 
             <ImageButton
@@ -76,39 +76,39 @@
                 android:layout_height="75dp"
                 android:layout_alignLeft="@+id/mapa"
                 android:layout_alignStart="@+id/mapa"
-                android:layout_alignTop="@+id/advert"
+                android:layout_alignTop="@+id/site"
                 android:background="@drawable/praca" />
+
+            <ImageButton
+                android:id="@+id/site"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/site"
+                android:layout_marginTop="11dp"
+                android:layout_below="@+id/prgText"
+                android:layout_alignLeft="@+id/pregad"
+                android:layout_alignStart="@+id/pregad" />
 
             <ImageButton
                 android:id="@+id/advert"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:background="@drawable/patr"
-                android:layout_marginTop="11dp"
-                android:layout_below="@+id/siteText"
-                android:layout_alignLeft="@+id/site"
-                android:layout_alignStart="@+id/site" />
-
-            <ImageButton
-                android:id="@+id/preg"
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_below="@+id/ptrText"
+                android:layout_below="@+id/sText"
                 android:layout_centerHorizontal="true"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp"
-                android:background="@drawable/pregad" />
+                android:background="@drawable/patr" />
 
             <TextView
-                android:id="@+id/pregText"
+                android:id="@+id/adText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/preg"
-                android:layout_alignStart="@+id/preg"
-                android:layout_below="@+id/preg"
+
                 android:layout_marginTop="11dp"
-                android:text="@string/preg"
-                android:textAlignment="center" />
+                android:text="@string/ptr"
+                android:textAlignment="center"
+                android:layout_below="@+id/advert"
+                android:layout_centerHorizontal="true" />
 
             <TextView
                 android:id="@+id/cronoText"
@@ -118,11 +118,11 @@
                 android:layout_alignStart="@+id/events"
                 android:layout_below="@+id/events"
                 android:layout_marginTop="11dp"
-                android:text="@string/crono"
+                android:text="@string/cronog"
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/sobreText"
+                android:id="@+id/sbText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/cronoText"
@@ -135,16 +135,16 @@
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/siteText"
+                android:id="@+id/prgText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/mapText"
                 android:layout_alignBottom="@+id/mapText"
-                android:layout_alignEnd="@+id/site"
-                android:layout_alignLeft="@+id/site"
-                android:layout_alignRight="@+id/site"
-                android:layout_alignStart="@+id/site"
-                android:text="@string/faq"
+                android:layout_alignEnd="@+id/pregad"
+                android:layout_alignLeft="@+id/pregad"
+                android:layout_alignRight="@+id/pregad"
+                android:layout_alignStart="@+id/pregad"
+                android:text="@string/pregador"
                 android:textAlignment="center" />
 
             <TextView
@@ -172,14 +172,19 @@
                 android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/ptrText"
+                android:id="@+id/sText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/alimText"
                 android:layout_alignBottom="@+id/alimText"
-                android:layout_marginStart="47dp"
-                android:layout_marginLeft="47dp"
-                android:text="@string/ptr"
+
+                android:layout_alignEnd="@+id/site"
+                android:layout_alignLeft="@+id/site"
+                android:layout_alignRight="@+id/site"
+                android:layout_alignStart="@+id/site"
+                android:layout_below="@+id/site"
+                android:layout_marginTop="11dp"
+                android:text="@string/faq"
                 android:textAlignment="center" />
 
         </RelativeLayout>

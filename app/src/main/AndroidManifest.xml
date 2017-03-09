@@ -13,13 +13,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity android:name=".MainActivity">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
 
         <activity android:name=".MainActivity"
             android:label="@string/title_main"
@@ -42,16 +35,17 @@
             android:name=".Cronograma"
             android:label="@string/title_cronograma"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregadores"
+            android:label="@string/title_patroc"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".ACentro1" />
         <activity android:name=".ACentro2" />
         <activity android:name=".Capela1" />
         <activity android:name=".Capela2" />
         <activity android:name=".Domingo" />
         <activity android:name=".Sabado" />
-        <!--<activity android:name=".Faq" />-->
-        <!-- <activity android:name=".Mapa" /> -->
-        <!-- <activity android:name=".Mapa" /> -->
-        <!-- <activity android:name=".Mapa" /> -->
 
         <meta-data
             android:name="com.google.android.gms.version"

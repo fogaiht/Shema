@@ -4,12 +4,12 @@
     <string name="rota">Clique abaixo para traçar a rota</string>
     <string name="go_to2">Me leve até Lá!</string>
     <string name="api_maps_key">AIzaSyC0aRVqE7vZjCwJ3m3ZpSYEVJ51_Bc4s2A</string>
-    <string name="crono">Cronograma</string>
+    <string name="cronog">Cronograma</string>
     <string name="ac">Área Central</string>
     <string name="capela">Capela</string>
     <string name="ptr">Patrocinadores</string>
     <string name="praca">Alimentação</string>
-    <string name="preg">Pregadores</string>
+    <string name="pregador">Pregadores</string>
     <string name="day1">Sábado</string>
     <string name="day2">Domingo</string>
     <string name="historia">Sobre</string>
@@ -21,6 +21,10 @@
     <string name="title_cronograma">Cronograma</string>
     <string name="title_main">Shemá, Deus Chama!</string>
     <string name="title_mapa">Local do Evento</string>
+    <string name="title_patroc">Patrocinadores</string>
+    <string name="au">Ouro</string>
+    <string name="pt">Prata</string>
+    <string name="brz">Bronze</string>
     <string name="large_text">"      A ideia do Projeto foi apresentada pelo Padre João Evangelista ao Ministério de Música Tabernáculo, após a celebração das 09:30h, no dia 15/11/2015, na Comunidade Santa Clara.
         Ele disse que durante a Missa ficou pensando em um Evento, que envolvesse música, adoração e as comunidades da paróquia, especialmente voltado para os jovens. Disse ainda que havia em seu pensamento um nome, Shemá, e nos pediu que nos colocássemos a serviço, para que esse propósito se tornasse realidade.
         Tão logo o Ministério se dispôs, e no dia seguinte aconteceu a 1ª reunião para tratar a respeito, na qual foi assumido o compromisso de oração diário, terço diário, na intenção do Shemá.

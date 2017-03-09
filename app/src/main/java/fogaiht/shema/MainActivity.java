@@ -71,5 +71,29 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), Cronograma.class));
             }
         });
+
+//        ImageButton iniciar4 = (ImageButton) findViewById(R.id.preg);
+//        iniciar4.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                startActivity(new Intent(getBaseContext(), Pregadores.class));
+//            }
+//        });
+
+        ImageButton iniciar5 = (ImageButton) findViewById(R.id.advert);
+        iniciar5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String site = "https://www.shemadeuschama.com/patrocinadores";
+                Uri uri = Uri.parse(site); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+//        ImageButton iniciar6 = (ImageButton) findViewById(R.id.alimento);
+//        iniciar6.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                startActivity(new Intent(getBaseContext(), Praca.class));
+//            }
+//        });
     }
 }

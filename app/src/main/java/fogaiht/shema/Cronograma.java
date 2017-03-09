@@ -34,8 +34,8 @@ public class Cronograma extends AppCompatActivity{
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"01/04/2017\nSábado",
-                "02/04/2017\nDomingo"
+        String[] values = new String[]{"01/04/2017\nSábado\n",
+                "02/04/2017\nDomingo\n"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

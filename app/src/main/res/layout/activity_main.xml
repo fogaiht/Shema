@@ -56,11 +56,11 @@
             android:layout_alignStart="@+id/events"
             android:layout_below="@+id/events"
             android:layout_marginTop="11dp"
-            android:text="@string/crono"
+            android:text="@string/cronog"
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/sobreText"
+            android:id="@+id/sbText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/cronoText"
@@ -78,7 +78,7 @@
             android:layout_height="75dp"
             android:layout_alignLeft="@+id/historia"
             android:layout_alignStart="@+id/historia"
-            android:layout_below="@+id/sobreText"
+            android:layout_below="@+id/sbText"
             android:layout_marginTop="13dp"
             android:background="@drawable/site" />
 
@@ -95,10 +95,10 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/sobreText"
+            android:layout_alignEnd="@+id/sbText"
             android:layout_alignLeft="@+id/site"
             android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/sobreText"
+            android:layout_alignRight="@+id/sbText"
             android:layout_alignStart="@+id/site"
             android:text="@string/faq"
             android:textAlignment="center" />

@@ -12,10 +12,10 @@ import android.webkit.WebViewClient;
  */
 public class Pregadores extends AppCompatActivity {
 
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(getBaseContext(), MainActivity.class));
-    }
+//    @Override
+//    public void onBackPressed() {
+//        startActivity(new Intent(getBaseContext(), MainActivity.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

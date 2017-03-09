@@ -10,11 +10,11 @@ import android.view.View;
 
 public class Alimentacao extends AppCompatActivity {
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), MainActivity.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), MainActivity.class));
+//    }
 
 
     @Override

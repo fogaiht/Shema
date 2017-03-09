@@ -45,6 +45,7 @@
         <activity android:name=".Capela2" />
         <activity android:name=".Domingo" />
         <activity android:name=".Sabado" />
+        <activity android:name=".CronogramaHide"/>
 
         <meta-data
             android:name="com.google.android.gms.version"

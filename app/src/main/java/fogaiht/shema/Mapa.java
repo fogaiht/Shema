@@ -25,11 +25,11 @@ public class Mapa extends AppCompatActivity implements OnMapReadyCallback {
 
     private LatLng location = new LatLng(-18.937693, -48.299304);
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), MainActivity.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), MainActivity.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

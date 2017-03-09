@@ -3,6 +3,7 @@ package fogaiht.shema;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Handler;
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -13,24 +14,38 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private boolean backPressedToExitOnce = false;
     private Toast toast = null;
+    private long lastBackPressTime = 0;
 
+//    @Override
+//    public void onBackPressed() {
+//        if (backPressedToExitOnce) {
+//            return;
+//        }
+//        this.backPressedToExitOnce = true;
+//        Toast.makeText(this, "Pressione de novo para sair", Toast.LENGTH_SHORT).show();
+//
+//        new Handler().postDelayed(new Runnable() {
+//
+//            @Override
+//            public void run() {
+//                backPressedToExitOnce=false;
+//            }
+//        }, 2000);
+//        this.finish();
+//    }
+//
     @Override
     public void onBackPressed() {
-        if (backPressedToExitOnce) {
-            super.onBackPressed();
-            return;
-        }
-
-        this.backPressedToExitOnce = true;
-        Toast.makeText(this, "Pressione de novo para sair", Toast.LENGTH_SHORT).show();
-
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-                backPressedToExitOnce=false;
+        if (this.lastBackPressTime < System.currentTimeMillis() - 2000) {
+            toast = Toast.makeText(this, "Pressione de novo para sair!", Toast.LENGTH_SHORT);
+            toast.show();
+            this.lastBackPressTime = System.currentTimeMillis();
+        } else {
+            if (toast != null) {
+                toast.cancel();
             }
-        }, 2000);
+            super.onBackPressed();
+        }
     }
 
     @Override
@@ -68,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton iniciar3 = (ImageButton) findViewById(R.id.events);
         iniciar3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), Cronograma.class));
+                startActivity(new Intent(getBaseContext(), CronogramaHide.class));
             }
         });
 

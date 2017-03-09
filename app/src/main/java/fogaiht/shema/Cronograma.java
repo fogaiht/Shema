@@ -16,11 +16,11 @@ public class Cronograma extends AppCompatActivity{
 
     ListView listView;
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), MainActivity.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), MainActivity.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

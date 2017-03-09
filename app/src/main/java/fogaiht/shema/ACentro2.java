@@ -15,11 +15,11 @@ public class ACentro2 extends AppCompatActivity {
 
     ListView listView;
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), Domingo.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), Domingo.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

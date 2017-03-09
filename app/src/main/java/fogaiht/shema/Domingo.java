@@ -11,11 +11,11 @@ import android.widget.ImageButton;
  */
 public class Domingo extends AppCompatActivity {
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), Cronograma.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), Cronograma.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

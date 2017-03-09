@@ -15,11 +15,11 @@ public class Capela1 extends AppCompatActivity {
 
     ListView listView;
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getBaseContext(), Sabado.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getBaseContext(), Sabado.class));
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

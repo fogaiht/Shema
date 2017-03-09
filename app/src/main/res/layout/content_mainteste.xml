@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="fogaiht.shema.MainScroll"
+    tools:context="fogaiht.shema.MainActivity"
     tools:showIn="@layout/activity_main_scroll">
 
     <LinearLayout
@@ -26,7 +26,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="900dp">
+            android:layout_height="wrap_content">
 
             <ImageButton
                 android:id="@+id/events"
@@ -35,8 +35,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@+id/historia"
-                android:layout_marginEnd="33dp"
-                android:layout_marginRight="33dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
                 android:background="@drawable/crono" />
 
             <ImageButton
@@ -46,8 +46,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="35dp"
-                android:layout_marginStart="35dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/sobre" />
 
@@ -74,24 +74,41 @@
                 android:id="@+id/alimento"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignTop="@+id/historia"
-                android:layout_marginEnd="33dp"
-                android:layout_marginRight="33dp"
-                android:background="@drawable/crono" />
+                android:layout_alignLeft="@+id/mapa"
+                android:layout_alignStart="@+id/mapa"
+                android:layout_alignTop="@+id/advert"
+                android:background="@drawable/praca" />
 
             <ImageButton
                 android:id="@+id/advert"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="35dp"
-                android:layout_marginStart="35dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/sobre" />
+                android:background="@drawable/patr"
+                android:layout_marginTop="11dp"
+                android:layout_below="@+id/siteText"
+                android:layout_alignLeft="@+id/site"
+                android:layout_alignStart="@+id/site" />
+
+            <ImageButton
+                android:id="@+id/preg"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_below="@+id/ptrText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:background="@drawable/pregad" />
+
+            <TextView
+                android:id="@+id/pregText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/preg"
+                android:layout_alignStart="@+id/preg"
+                android:layout_below="@+id/preg"
+                android:layout_marginTop="11dp"
+                android:text="@string/preg"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/cronoText"
@@ -130,8 +147,6 @@
                 android:text="@string/faq"
                 android:textAlignment="center" />
 
-
-
             <TextView
                 android:id="@+id/mapText"
                 android:layout_width="wrap_content"
@@ -143,6 +158,28 @@
                 android:layout_marginStart="19dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/help"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/alimText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/alimento"
+                android:layout_alignEnd="@+id/alimento"
+                android:layout_below="@+id/alimento"
+                android:layout_marginTop="10dp"
+                android:text="@string/praca"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/ptrText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/alimText"
+                android:layout_alignBottom="@+id/alimText"
+                android:layout_marginStart="47dp"
+                android:layout_marginLeft="47dp"
+                android:text="@string/ptr"
                 android:textAlignment="center" />
 
         </RelativeLayout>

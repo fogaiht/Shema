@@ -7,6 +7,9 @@
     <string name="crono">Cronograma</string>
     <string name="ac">Área Central</string>
     <string name="capela">Capela</string>
+    <string name="ptr">Patrocinadores</string>
+    <string name="praca">Alimentação</string>
+    <string name="preg">Pregadores</string>
     <string name="day1">Sábado</string>
     <string name="day2">Domingo</string>
     <string name="historia">Sobre</string>

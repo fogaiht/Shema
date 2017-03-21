@@ -30,26 +30,20 @@ public class ACentro2 extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_day);
 
         // Defined Array values to show in ListView
-        String[] values = new String[]{"\n09:30\nEquipe\nBreve intervalo café da manhã\n",
-                "\n09:50\nEquipe Conduz\n",
-                "\n10:00\nPregação Família\nAlex Soares e Banda\nComunidade Vida Missão" +
-                        "\nO que tem vivido em família, momento de cura" +
-                        " e libertação, Manto Exorcizado\n",
-                "\n11:20\nEquipe Conduz\nTroca de Músicos\n",
-                "\n11:30\nPregação Família\nJoão Victor Mariano\nTestemunho, Compromisso/Atitude" +
-                        " para sua família!\n",
-                "\n12:30\nEquipe Conduz\nBreve intervalo para almoço\n",
-                "\n12:55\nEquipe 'Convida a voltar'\n",
-                "\n13:00\nPregação\nDiácono Fábio Mendes\nMissão Sacra Luz\n",
-                "\n14:00\nEquipe Conduz\n",
-                "\n14:10\nPregação\nCristina (Com. Luz e Vida)\nMissão Sacra Luz\n",
-                "\n15:10\nEquipe Conduz\n",
-                "\n15:20\nShow Comunidade Brisa Leve\n",
-                "\n16:20\nEquipe Conduz\n",
-                "\n16:30\nPregação de Fechamento\nAlex (Comunidade Vida Missão)" +
-                        "\nBanda Comunidade Vida Missão",
+        String[] values = new String[]{
+                "\n10:00\nPregação Família\nAlex Soares (Com. Vida Missão)\n",
+                "\n11:20\nIntervalo\n",
+                "\n11:30\nPregação Família\nJoão Victor Mariano\n",
+                "\n12:30\nIntervalo\n",
+                "\n13:00\nPregação\nDiácono Fábio Mendes\n\nAcompanha: Missão Sacra Luz\n",
+                "\n14:00\nIntervalo\n",
+                "\n14:10\nPregação\nCristina (Com. Luz da Vida)\n\nAcompanha: Missão Sacra Luz\n",
+                "\n15:10\nIntervalo\n",
+                "\n15:20\nShow\nComunidade Brisa Leve\n",
+                "\n16:20\nIntervalo\n",
+                "\n16:30\nPregação de Encerramento\nAlex Soares\n",
                 "\n17:30\nENCERRAMENTO\nBenção do Santíssimo" +
-                        "\nPe. Marcos e Comunidade Vida Missão"
+                        "\nDiácono Geraldo e Comunidade Vida Missão"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton iniciar3 = (ImageButton) findViewById(R.id.events);
         iniciar3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), CronogramaHide.class));
+                startActivity(new Intent(getBaseContext(), Cronograma.class));
             }
         });
 

@@ -32,21 +32,21 @@ public class ACentro1 extends AppCompatActivity {
 
         // Defined Array values to show in ListView
         String[] values = new String[]{
-                "\n14:00\nMissa de Abertura\nPe. João Evangelista" +
+                "\n14:00\n\nMissa de Abertura\n\nPe. João Evangelista" +
                 "\nMinistério de Música Sagrada Face\n",
-                "\n15:40\nIntervalo\n",
-                "\n15:50\nPregação\nCristina (Com. Luz da Vida)\n\nAcompanha: Ministério Dias de Paz\n",
-                "\n16:40\nIntervalo\n",
-                "\n16:50\nPregação\nLuciano Salles\n\nAcompanha: Ministério Dias de Paz\n",
-                "\n17:50\nIntervalo\n",
-                "\n18:00\nTeatro\nComunidade Brisa Leve\n",
-                "\n18:40\nIntervalo\n",
-                "\n18:50\nShow\nJoão Victor Mariano\n",
-                "\n19:50\nIntervalo\nApresentação Shemá Kids\n",
-                "\n20:15\nShow\nAlex Soares\n",
-                "\n21:30\nAdoração\nFernandinho (Com. Cenáculo) " +
-                        "juntamente com Diácono Fábio Mendes",
-                "\n23:30\nEncerramento"
+                "15:40\n\nIntervalo\n",
+                "15:50\n\nPregação\n\nCristina (Com. Luz da Vida)\nAcompanha: Ministério Dias de Paz\n",
+                "16:40\n\nIntervalo\n",
+                "16:50\n\nPregação\n\nLuciano Salles\nAcompanha: Ministério Dias de Paz\n",
+                "17:50\n\nIntervalo\n",
+                "18:00\n\nTeatro\n\nComunidade Brisa Leve\n",
+                "18:40\n\nIntervalo\n",
+                "18:50\n\nShow\n\nJoão Victor Mariano\n",
+                "19:50\n\nIntervalo\n\nApresentação Shemá Kids\n",
+                "20:15\n\nShow\n\nAlex Soares\n",
+                "21:30\n\nAdoração\n\nFernandinho (Com. Cenáculo) " +
+                        "e Diácono Fábio Mendes",
+                "23:30\n\nEncerramento"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

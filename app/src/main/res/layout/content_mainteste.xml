@@ -22,7 +22,7 @@
             android:layout_height="225dp"
             android:layout_gravity="center"
             android:contentDescription=""
-            app:srcCompat="@drawable/logo"
+            app:srcCompat="@drawable/logo2"
             tools:ignore="ContentDescription" />
 
         <RelativeLayout

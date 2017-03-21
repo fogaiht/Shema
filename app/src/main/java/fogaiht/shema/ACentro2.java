@@ -31,19 +31,19 @@ public class ACentro2 extends AppCompatActivity {
 
         // Defined Array values to show in ListView
         String[] values = new String[]{
-                "\n10:00\nPregação Família\nAlex Soares (Com. Vida Missão)\n",
-                "\n11:20\nIntervalo\n",
-                "\n11:30\nPregação Família\nJoão Victor Mariano\n",
-                "\n12:30\nIntervalo\n",
-                "\n13:00\nPregação\nDiácono Fábio Mendes\n\nAcompanha: Missão Sacra Luz\n",
-                "\n14:00\nIntervalo\n",
-                "\n14:10\nPregação\nCristina (Com. Luz da Vida)\n\nAcompanha: Missão Sacra Luz\n",
-                "\n15:10\nIntervalo\n",
-                "\n15:20\nShow\nComunidade Brisa Leve\n",
-                "\n16:20\nIntervalo\n",
-                "\n16:30\nPregação de Encerramento\nAlex Soares\n",
-                "\n17:30\nENCERRAMENTO\nBenção do Santíssimo" +
-                        "\nDiácono Geraldo e Comunidade Vida Missão"
+                "\n10:00\n\nPregação Família\n\nAlex Soares (Com. Vida Missão)\n",
+                "11:20\n\nIntervalo\n",
+                "11:30\n\nPregação Família\n\nJoão Victor Mariano\n",
+                "12:30\n\nIntervalo\n",
+                "13:00\n\nPregação\n\nDiácono Fábio Mendes\nAcompanha: Missão Sacra Luz\n",
+                "14:00\n\nIntervalo\n",
+                "14:10\n\nPregação\n\nCristina (Com. Luz da Vida)\nAcompanha: Missão Sacra Luz\n",
+                "15:10\n\nIntervalo\n",
+                "15:20\n\nShow\nComunidade Brisa Leve\n",
+                "16:20\n\nIntervalo\n",
+                "16:30\n\nPregação de Encerramento\nAlex Soares\n",
+                "17:30\n\nENCERRAMENTO\n\nBenção do Santíssimo" +
+                        "\nDiácono Geraldo e Com. Vida Missão"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

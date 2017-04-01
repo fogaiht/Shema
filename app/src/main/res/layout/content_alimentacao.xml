@@ -18,22 +18,21 @@
                 android:id="@+id/precos"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="50dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
                 android:text="@string/precos"
                 android:textAlignment="center"
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/soon"
+                android:id="@+id/precoss"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="50dp"
-                android:layout_marginTop="50dp"
-                android:text="@string/soon"
+                android:text="@string/precosAlim"
                 android:layout_below="@+id/precos"
                 android:textAlignment="center"
-                android:textSize="50sp" />
+                android:textSize="30sp" />
         </RelativeLayout>
 
     </LinearLayout>

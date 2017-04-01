@@ -33,7 +33,7 @@ public class ACentro2 extends AppCompatActivity {
         String[] values = new String[]{
                 "\n10:00\n\nPregação Família\n\nAlex Soares (Com. Vida Missão)\n",
                 "11:20\n\nIntervalo\n",
-                "11:30\n\nPregação Família\n\nJoão Victor Mariano\n",
+                "11:30\n\nPregação Família\n\nAndré Fontoura (Com. Vida Missão)\n",
                 "12:30\n\nIntervalo\n",
                 "13:00\n\nPregação\n\nDiácono Fábio Mendes\nAcompanha: Missão Sacra Luz\n",
                 "14:00\n\nIntervalo\n",

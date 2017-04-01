@@ -41,7 +41,7 @@ public class ACentro1 extends AppCompatActivity {
                 "17:50\n\nIntervalo\n",
                 "18:00\n\nTeatro\n\nComunidade Brisa Leve\n",
                 "18:40\n\nIntervalo\n",
-                "18:50\n\nShow\n\nJoão Victor Mariano\n",
+                "18:50\n\nSanto Terço\n",
                 "19:50\n\nIntervalo\n\nApresentação Shemá Kids\n",
                 "20:15\n\nShow\n\nAlex Soares\n",
                 "21:30\n\nAdoração\n\nFernandinho (Com. Cenáculo) " +

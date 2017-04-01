@@ -51,14 +51,14 @@ Portanto: Escuta, Deus chama!</string>
 
         “Um Coração Adorador nunca volta atrás”"</string>
 
-    <string name="jv">"João Victor Mariano</string>
-    <string name="jvtext">"
-        João Victor Mariano é membro fundador da Comunidade Missionária Mãe do Homem Novo de Araxá - MG.
-        Tem evangelizado por meio de palestras, ministrações por todo o Brasil; onde tem levado uma mensagem de Esperança e Fé e Devoção filial para com Maria Santíssima a Mãe de JESUS.
-        É também idealizador do primeiro aplicativo católico lançado para difundir a Consagração à Santíssima Virgem o Salve Maria TK.     Suas canções também têm alcançado grande público dentre elas: Só temos hoje para amar gravada por Rodrigo Ferreira e Michel Teló, Manifesta Tua Glória e Eis ai Tua Mãe gravadas pela Gravadora Canção Nova.
-        Acredita fielmente que o Amor de Deus é a solução para o mundo!
-
-        "Amor á Imaculada Sempre" -  João Victor Mariano"</string>
+    <!--<string name="jv">"João Victor Mariano</string>-->
+    <!--<string name="jvtext">"-->
+        <!--João Victor Mariano é membro fundador da Comunidade Missionária Mãe do Homem Novo de Araxá - MG.-->
+        <!--Tem evangelizado por meio de palestras, ministrações por todo o Brasil; onde tem levado uma mensagem de Esperança e Fé e Devoção filial para com Maria Santíssima a Mãe de JESUS.-->
+        <!--É também idealizador do primeiro aplicativo católico lançado para difundir a Consagração à Santíssima Virgem o Salve Maria TK.     Suas canções também têm alcançado grande público dentre elas: Só temos hoje para amar gravada por Rodrigo Ferreira e Michel Teló, Manifesta Tua Glória e Eis ai Tua Mãe gravadas pela Gravadora Canção Nova.-->
+        <!--Acredita fielmente que o Amor de Deus é a solução para o mundo!-->
+<!---->
+        <!--"Amor á Imaculada Sempre" -  João Victor Mariano"</string>-->
 
     <string name="brisa">Comunidade Brisa Leve</string>
     <string name="brisatext">"
@@ -86,6 +86,195 @@ Portanto: Escuta, Deus chama!</string>
     <string name="alex">Alex Soares</string>
     <string name="title_activity_alimentacao">Alimentação</string>
     <string name="title_activity_patrocinadores">Patrocinadores</string>
+    <string name="title_activity_folheto">Missa de Abertura</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="texto1">Missa de Abertura Shemá, Deus chama!</string>
+    <string name="ritos">"Ritos Iniciais"</string>
+    <string name="comentIni">"Comentário Inicial:"</string>
+    <string name="comentIniText">"
 
+    Shemá – palavra oriunda do hebraico, que significa ouve, escuta! Portanto: Escuta, Deus chama!.
+    Assim como chamou por Samuel, ainda menino a dormir dentro do Santuário, onde se encontrava o Tabernáculo com a Arca da Aliança.
+    Samuel ainda não conhecia o Senhor, Samuel não reconhecia a voz do Senhor, e por isso Ele o chamou três vezes… até que instruído por Eli, Samuel respondeu: “Fala Senhor, o teu servo escuta”, e Deus realizou grandes obras através de Samuel e em favor de seu povo!
+    Deus nos chama a conhecê-lo melhor, e em sua companhia, sermos melhores…
+    Cristãos melhores, pais melhores, filhos e filhas melhores, amigos melhores, irmãos melhores!
+    Deus nos chama a partilhar, celebrar, e servir em Comunidade, Deus nos chama a nos doar em favor do próximo, assim como Ele fez…  Seja enquanto Coroinhas, Ministros, Leitores, Músicos, Membros das mais diversas pastorais: Catequese, Acolhida, Legião de Maria, Grupo de Jovens, Grupo de Oração, Ministério de Música, Liturgia, Vicentinos, ECC, Crisma, Batismo… etc
+    Deus nos chama a resistir e a persistir…
+    Resistir, a tudo o que possa nos afastar Dele!
+    E persistir, professando a nossa fé com a vida, sendo Caridosos, Misericordiosos, Piedosos, Verdadeiros… Semelhantes ao Cristo!
+    Deus chama por cada um de nós, chama por nossas comunidades, chama por nossa paróquia, chama por você!
+    Este ano celebrando o ano Nacional Mariano, com o Shemá todo dedicado a Maria Nossa Mãe, sejamos obedientes ao que ela nos orienta: “Fazei tudo quanto ele vos disser”. João 2:5
+    E em resposta a este chamado estaremos todos junto, nestes dois dias, para louvar, rezar, adorar, celebrar em comunhão.
+    Estejamos de ouvidos e coração bem abertos, e tenhamos a sabedoria de Samuel ao responder a esse chamado…Sejam muito bem vindos: “Shemá, Deus chama!”
+    Todos de pé, com muito entusiasmo, cantemos o canto de entrada e acolhamos o presidente de nossa celebração."</string>
 
+    <string name="cantoEntrada">"1. Canto Entrada</string>
+
+    <string name="acol">"2. Acolhida"</string>
+    <string name="acolText">"\n\nPR: Em nome do Pai e do Filho e do Espirito Santo.\n\nAS.: Amém\n\nPR: A graça de Nosso Senhor Jesus Cristo, o amor do Pai e a comunhão do Espirito Santo estejam convosco.\n\nAS.: Bendito seja Deus que nos reuniu no amor de Cristo!\n\n\n*** ENTRADA DE NOSSA SENHORA***"</string>
+
+    <string name="atoP">"3. Ato Penitencial"</string>
+    <string name="atoPText">\n\nPR: Somos frágeis e pecadores. Mesmo assim, o Senhor nos ama, convoca e envia para sermos anunciadores de sua misericórdia. Reconheçamos as nossas culpas para bem celebrarmos os santos mistérios.
+    \n\nCanto Ato Penitencial\n\n
+    PR: Deus, Pai misericordioso tenha compaixão de nós, perdoe os nossos pecados e nos conduza a vida Eterna\n
+    AS.: Amém</string>
+    <string name="oracaoDia">4. Oração do Dia</string>
+    <string name="oracaoDiaText">\n\n
+    PR: OREMOS: Velai, ó Deus sobre a nossa família, com incansável amor; e, como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.\n\n
+    AS.: Amém</string>
+
+    <string name="liturgia">Liturgia da Palavra</string>
+    <string name="litText">"
+    Jesus supre nossa fraqueza, dando-nos forças suficientes para nos tornarmos anunciadores de seu amor e sua misericórdia. Atentos ouçamos, “Shemá, Deus chama!”."</string>
+
+    <string name="firstLeit">5. Primeira Leitura (I Samuel 3, 1-11)</string>
+    <string name="firstLeitText">"
+    \n
+        O menino Samuel servia ao Senhor, sob as ordens de Eli. A palavra do Senhor se manifestava raramente nesse tempo e as visões não eram frequentes. Certo dia, Eli estava deitado em seu quarto. Seus olhos começavam a enfraquecer e ele já não podia enxergar. A lâmpada do santuário ainda não tinha sido apagada e Samuel estava deitado no santuário do Senhor, onde se encontrava a arca de Deus. O Senhor chamou: "Samuel, Samuel". Ele respondeu: "Estou aqui". Ele foi correndo para junto de Eli e disse: "Estou aqui. O senhor me chamou?" Eli respondeu: "Não, eu não chamei você. Vá se deitar". Samuel foi se deitar, e o Senhor o chamou outra vez, Samuel se levantou, foi até onde Eli estava, e lhe disse: "Estou aqui. O senhor me chamou?", Eli respondeu: "Não chamei você, meu filho. Vá se deitar." Samuel ainda não conhecia o Senhor, e a palavra do Senhor ainda não lhe tinha sido revelada. O Senhor tornou a chamar Samuel pela terceira vez. Samuel se levantou, foi onde Eli estava, e lhe disse: "Estou aqui. O senhor me chamou?" Então Eli percebeu que era o Senhor quem estava chamando o menino, e disse a Samuel: "Vá e fique deitado. Se alguém chamar você de novo, diga: ‘Fala Senhor, que o teu servo escuta’". E Samuel foi se deitar no seu lugar. O Senhor se apresentou e o chamou como antes: "Samuel, Samuel". Então Samuel respondeu: "Fala Senhor, que o teu servo escuta".
+\n- Palavra do Senhor.
+- Graças a Deus."</string>
+
+    <string name="salmo">6. Salmo Responsorial (137)</string>
+    <string name="salmoText">\n\n
+    — Vou cantar-vos ante os anjos, ó Senhor,/ e ante o vosso templo vou prostrar-me.\n\n
+
+    — Ó Senhor, de coração eu vos dou graças,/ porque ouvistes as palavras dos meus lábios!/ Perante os vossos anjos vou cantar-vos/ e ante o vosso templo vou prostrar-me.\n
+    — Eu agradeço vosso amor, vossa verdade,/ porque fizestes muito mais que prometestes;/ naquele dia em que gritei, vós me escutastes/ e aumentastes o vigor da minha alma.\n
+    — Os reis de toda a terra hão de louvar-vos,/ quando ouvirem, ó Senhor, vossa promessa./ Hão de cantar vossos caminhos e dirão:/ “Como a glória do Senhor é grandiosa!”\n
+    — Estendereis o vosso braço em meu auxílio/ e havereis de me salvar com vossa destra./ Contemplai em mim a obra começada;/ ó Senhor, vossa bondade é para sempre!/ Eu vospeço: não deixeis inacabada/ esta obra que fizeram vossas mãos!</string>
+    <string name="secondLeit">7. Segunda Leitura (1Cor 15,3-8.11)</string>
+    <string name="secondLeitText">"
+    Leitura da Primeira Carta de São Paulo aos Coríntios:\n
+    Irmãos: 3O que vos transmiti, em primeiro lugar, foi aquilo que eu mesmo tinha recebido, a saber: que Cristo morreu por nossos pecados, segundo as Escrituras; 4que foi sepultado; que, ao terceiro dia, ressuscitou, segundo as Escrituras; 5e que apareceu a Cefas e, depois, aos Doze.
+    6Mais tarde, apareceu a mais de quinhentos irmãos, de uma vez. Destes, a maioria ainda vive e alguns já morreram. 7Depois, apareceu a Tiago e, depois, apareceu aos apóstolos todos juntos. 8Por último, apareceu também a mim, como a um abortivo.
+    11É isso, em resumo, o que eu e eles temos pregado e é isso o que crestes.\n\n- Palavra do Senhor.
+- Graças a Deus."</string>
+    <string name="aclmEvangelho">8. Aclamação ao Evangelho (Jo 2, 1-11)</string>
+    <string name="evangelho">9. Evangelho</string>
+    <string name="evangelhoText">"
+    — O Senhor esteja convosco.
+    — Ele está no meio de nós!
+    — PROCLAMAÇÃO do Evangelho de Jesus Cristo + segundo São João.
+    — Glória a vós, Senhor!
+
+    Naquele tempo, E, ao terceiro dia, fizeram-se umas bodas em Caná da Galiléia; e estava ali a mãe de Jesus.
+    E foi também convidado Jesus e os seus discípulos para as bodas.
+    E, faltando vinho, a mãe de Jesus lhe disse: Não têm vinho.
+    Disse-lhe Jesus: Mulher, que tenho eu contigo? Ainda não é chegada a minha hora.
+    Sua mãe disse aos serventes: Fazei tudo quanto ele vos disser.
+    E estavam ali postas seis talhas de pedra, para as purificações dos judeus, e em cada uma cabiam dois ou três almudes.
+    Disse-lhes Jesus: Enchei de água essas talhas. E encheram-nas até em cima.
+    E disse-lhes: Tirai agora, e levai ao mestre-sala. E levaram.
+    E, logo que o mestre-sala provou a água feita vinho (não sabendo de onde viera, se bem que o sabiam os serventes que tinham tirado a água), chamou o mestre-sala ao esposo,
+    E disse-lhe: Todo o homem põe primeiro o vinho bom e, quando já têm bebido bem, então o inferior; mas tu guardaste até agora o bom vinho. Jesus principiou assim os seus sinais em Caná da Galiléia, e manifestou a sua glória; e os seus discípulos creram nele.
+
+    — Palavra da Salvação.
+    — Glória a vós, Senhor."</string>
+
+    <string name="homilia">10. Homilia</string>
+    <string name="profissaoFe">11. Profissão de fé</string>
+    <string name="profFeText">"\nPR: Creio em Deus Pai....."</string>
+    <string name="preces">12. Preces da Assembleia</string>
+    <string name="precesText">"
+    PR: Supliquemos a Deus, que se revelou à humanidade através de Jesus Cristo, e chama por todos nós, para que possamos colaborar em seu projeto de Salvação
+
+    A nossa resposta será:\n\nFala Senhor, que o teu servo escuta! TODOS: Fala Senhor, que o teu servo escuta!
+
+    1 – Pela Santa Igreja de Deus, em todas as suas atividades missionárias, para que não se deixe abater pelas dificuldades, e persevere no anúncio do Reino, sempre ouvindo a voz de Deus, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    2 – Pelo Papa Francisco, nosso bispo Dom Paulo Francisco, por todos os bispos, presbíteros e anunciadores do Evangelho, para que o Senhor os conserve na fidelidade à missão, de modo especial diante das situações mais difíceis, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    3 – Pelo ano Nacional Mariano, que seus frutos sejam abundantes e alcancem a todos pela intercessão de Nossa Senhora, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    4 – Por nossas comunidades, para que, até mesmo diante do desafio de recomeçar ações evangelizadoras, tendo que novamente lançar as redes, não desanimem, mas perseverem de corações e ouvidos sempre abertos, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    5 – Por todos nós, participantes e servos do Shemá, Deus chama, para que se revigore em nós o compromisso de sempre receber e anunciar Jesus às outras pessoas, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    6 – Pelo “Shemá, Deus chama”, que seja um grande momento de graças em nossas vidas, e que estejamos atentos a este chamado que Deus nos faz, Ide e anunciai, rezemos:
+    TODOS: Fala Senhor, que o teu servo escuta!
+
+    PR: Pai de misericórdia, por intercessão da Bem Aventurada Virgem Maria, acolhei compassivo as preces que fazemos aqui reunidos, para que, conscientes de que somos todos chamados a sermos evangelizadores, possamos nos alegrar e sempre responder ao teu chamado prontamente, assim como Samuel. Por Cristo, nosso Senhor.
+    AS.: Amém"</string>
+    <string name="LitEucaristica">Liturgia Eucarística</string>
+    <string name="comentOfer">Comentário Ofertório:</string>
+    <string name="comentOferText">"
+    Neste momento ofertamos pão e vinho, bem como tudo o que somos e temos!
+    Dons que se ofertam, cheios de gratidão e alegria, ao Senhor que nos chama a cada dia!
+    Seguem em procissão a imagem dos padroeiros, representando esta paróquia e suas comunidades, todos nós, que aqui estamos por escutar e responder a este chamado!
+    Matriz São Francisco de Assis, Comunidades: Santa Clara, São Bento, Nossa Senhora do Perpétuo Socorro, Santa Rita de Cássia, São Lucas, Nossa Senhora da Visitação, Nossa Senhora da Abadia.</string>
+
+    <string name="ofertas">13. Ofertas</string>
+    <string name="convOracao">14. Convite à Oração</string>
+    <string name="convOracaoText">"
+    PR: Orai, irmãos e irmãs, para que levando ao altar as alegrias e fadigas de cada dia, nos disponhamos a oferecer um sacrifico aceito por Deus Pai todo-poderoso.
+    AS.: Receba o Senhor por tuas mãos este sacrifício, para a glória do seu nome para nosso bem e de toda a santa Igreja."</string>
+
+    <string name="oracaoOfer">15. Oração sobre as Oferendas</string>
+    <string name="oracaoOferText">"
+    PR: Senhor nosso Deus, que criastes o pão e o vinho para alimento da nossa fraqueza, concedei que  se tornem para nós sacramento da vida eterna. Por Cristo, nosso Senhor.
+    AS.: Amém"</string>
+
+    <string name="oracaoEucaristica">16. Oração Eucarística II</string>
+    <string name="oracaoEucaristicaText">"
+    PR: O Senhor esteja convosco.
+    AS.: Ele está no meio de nós.
+    PR: Corações ao alto.
+    AS.: O nosso coração está em Deus.
+    PR: Demos graças ao Senhor, nosso Deus.
+    AS.: É nosso dever e nossa salvação.
+
+    PR: Na verdade, é justo e necessário, é nosso dever e salvação dar-vos graças, sempre e em todo o lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso.
+    Ele é a vossa palavra viva, pela qual tudo criastes. Ele é o nosso salvador e redentor, verdadeiro homem, concebido do Espírito Santo e nascido da Virgem Maria. Ele, para cumprir a vossa vontade e reunir um povo santo em vosso louvor, estendeu os braços na hora da sua paixão a fim de vencer a morte e manifestar a ressurreição.
+    Por ele os anjos celebram vossa grandeza e os santos proclamam vossa glória. Concedei-nos também a nós associar-nos a seus louvores, CANTANDO a uma só voz:
+
+    PR: Na verdade, ó Pai, vós sois santo e fonte de toda santidade. Santificai, pois, estas oferendas, derramando sobre elas o vosso Espírito, a fim de que se tornem para nós o Corpo e † o Sangue de Jesus Cristo, vosso Filho e Senhor nosso.
+    AS.: Santificai nossa oferenda, ó Senhor!
+
+    PR: Estando para ser entregue e abraçando livremente a paixão, ele tomou o pão, deu graças e o partiu e deu a seus discípulos, dizendo:
+    TOMAI, TODOS, E COMEI: ISTO É O MEU CORPO, QUE SERÁ ENTREGUE POR VÓS.
+
+    Do mesmo modo, ao fim da ceia, ele tomou o cálice em suas mãos, deu graças novamente o deu a seus discípulos, dizendo:
+    TOMAI, TODOS, E BEBEI: ESTE É O CÁLICE DO MEU SANGUE, O SANGUE DA NOVA E ETERNA ALIANÇA, QUE SERÁ DERRAMADO POR VÓS E POR TODOS,
+    PARA A REMISSÃO DOS PECADOS. FAZEI ISTO EM MEMÓRIA DE MIM.
+    Eis o mistério da fé!
+    AS.: Todas as vezes que comemos deste pão e bebemos deste cálice, anunciamos, Senhor, a vossa morte, enquanto esperamos a vossa vinda!
+
+    PR: Celebrando, pois, a memória da morte e ressurreição do vosso Filho, nós vos oferecemos, ó Pai, o pão da vida e o cálice da salvação; e vos agradecemos por que nos tornastes dignos de estar aqui na vossa presença e vos servir.
+    AS.: Recebei, ó Senhor, a nossa oferta!
+
+    PR: E nós vos suplicamos que, participando do Corpo e Sangue de Cristo, sejamos reunidos pelo Espírito Santo num só corpo.
+    AS.: Fazei de nós um só corpo e um só espírito!
+
+    PR: Lembrai-vos, ó Pai, da vossa Igreja que se faz presente pelo mundo inteiro: que ela cresça na caridade com o papa N., com o nosso bispo N. e todos os ministros do vosso povo.
+    AS.: Lembrai-vos, ó Pai, da vossa Igreja!
+
+    PR: Lembrai-vos também dos (outros) nossos irmãos e irmãs que morreram na esperança da ressurreição e de todos os que partiram desta vida: acolhei-os junto a vós na luz da vossa face.
+    AS.: Lembrai-vos, ó Pai, dos vossos filhos!
+
+    PR: Enfim, nós vos pedimos, tende piedade de todos nós e dai-nos participar da vida eterna, com a virgem Maria, mãe de Deus, com os santos apóstolos e todos os que neste mundo vos serviram, a fim de vos louvarmos e glorificarmos por Jesus Cristo, vosso Filho.
+    AS.: Concedei-nos o convívio dos eleitos!
+
+    PR: Por Cristo, com Cristo, em Cristo, a vós, Deus Pai todo poderoso, na unidade do Espírito Santo, toda a honra e toda a glória, agora e para sempre.
+    AS.: Amém!"</string>
+
+    <string name="ritoComunhao">17. Rito da Comunhão</string>
+    <string name="ritoComunhaoText">"
+    PR: Rezemos, com amor e confiança, a oração que o Senhor Jesus nos ensinou:\n
+    T: Pai nosso…"</string>
+
+    <string name="comunhao">18. Comunhão</string>
+    <string name="posComunhao">19. Depois da Comunhão</string>
+    <string name="posComunhaoText">"
+    PR: OREMOS: Ó Deus, vós quisestes que participássemos do mesmo pão e mesmo cálice; fazei-nos viver de tal modo unidos em Cristo, que tenhamos a alegria de produzir muitos frutos para a salvação do mundo. Por Cristo nosso Senhor.
+    AS.: Amém"</string>
+
+    <string name="ritosFinais">Ritos Finais</string>
+    <string name="recados">Recados:</string>
+    <string name="recadosText">"
+    **Durante os recados equipe de liturgia, acólitos e ministros, preparam para translado do Santíssimo Sacramento para a Capela."</string>
 </resources>

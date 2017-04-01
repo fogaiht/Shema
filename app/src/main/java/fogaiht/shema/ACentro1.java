@@ -33,7 +33,7 @@ public class ACentro1 extends AppCompatActivity {
         // Defined Array values to show in ListView
         String[] values = new String[]{
                 "\n14:00\n\nMissa de Abertura\n\nPe. João Evangelista" +
-                "\nMinistério de Música Sagrada Face\n",
+                "\nMinistério de Música Sagrada Face\n\n\nClique para abrir o folheto\n",
                 "15:40\n\nIntervalo\n",
                 "15:50\n\nPregação\n\nCristina (Com. Luz da Vida)\nAcompanha: Ministério Dias de Paz\n",
                 "16:40\n\nIntervalo\n",
@@ -56,13 +56,13 @@ public class ACentro1 extends AppCompatActivity {
         // Assign adapter to ListView
         listView.setAdapter(adapter);
 
-        // ListView Item Click Listener
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                if (position == 0) {
-//                    startActivity(new Intent(getBaseContext(), Sabado.class));
+//         ListView Item Click Listener
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position == 0) {
+                    startActivity(new Intent(getBaseContext(), Folheto.class));
 //                } else if (position == 1) {
 //                    startActivity(new Intent(getBaseContext(), ACentro1.class));
 //                } else if (position == 2) {
@@ -91,9 +91,9 @@ public class ACentro1 extends AppCompatActivity {
 //                    startActivity(new Intent(getBaseContext(), Sabado.class));
 //                } else if (position == 14) {
 //                    startActivity(new Intent(getBaseContext(), ACentro1.class));
-//                }
-//            }
-//        });
+                }
+            }
+        });
     }
 
 }

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fogaiht.shema.Folheto"
+    tools:showIn="@layout/activity_folheto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/texto1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/ritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/ritos"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/comentIni"
+        android:layout_below="@id/ritos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/comentIni"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/comentIniT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ritos"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/comentIniText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/cantoEnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comentIniT"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/cantoEntrada"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/acol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cantoEnt"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/acol"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/acolT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cantoEnt"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/acolText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/atoP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acolT"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/atoP"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/atoPText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acolT"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/atoPText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/oracaoDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atoPText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/oracaoDia"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/oracaoDiaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atoPText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/oracaoDiaText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/liturgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oracaoDiaText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/liturgia"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/litText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oracaoDiaText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/litText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/firstLeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/litText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/firstLeit"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/firstLeitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/litText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/firstLeitText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/salmo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLeitText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/salmo"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/salmoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLeitText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/salmoText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/secondLeit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salmoText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/secondLeit"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/secondLeitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salmoText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/secondLeitText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/aclmEvangelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondLeitText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/aclmEvangelho"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Evangelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aclmEvangelho"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/evangelho"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/evangelhoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aclmEvangelho"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/evangelhoText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Homilia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/evangelhoText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/homilia"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ProfissaoFe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Homilia"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/profissaoFe"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/profFeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Homilia"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/profFeText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/PrecesAssembleia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profFeText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/preces"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/precesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profFeText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/precesText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/liturgiaEucaristica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/precesText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/LitEucaristica"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/comentOfer"
+        android:layout_below="@id/liturgiaEucaristica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/comentOfer"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/comentOferText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/liturgiaEucaristica"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/comentOferText"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ofertas"
+        android:layout_below="@id/comentOferText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/ofertas"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/conviteOracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ofertas"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/convOracao"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/conviteOracaoText"
+        android:layout_below="@id/ofertas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/convOracaoText"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/oracaoOfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conviteOracaoText"
+        android:layout_margin="@dimen/text_margin"
+        android:textStyle="bold"
+        android:text="@string/oracaoOfer"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/oracaoOferText"
+        android:layout_below="@id/conviteOracaoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/oracaoOferText"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/oracaoEucaristica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oracaoOferText"
+        android:layout_margin="@dimen/text_margin"
+        android:textStyle="bold"
+        android:text="@string/oracaoEucaristica"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/oracaoEucaristicaText"
+        android:layout_below="@id/oracaoOferText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/oracaoEucaristicaText"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/ritoComunhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oracaoEucaristicaText"
+        android:layout_margin="@dimen/text_margin"
+        android:textStyle="bold"
+        android:text="@string/ritoComunhao"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ritoComunhaoText"
+        android:layout_below="@id/oracaoEucaristicaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/ritoComunhaoText"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/comunhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ritoComunhaoText"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/comunhao"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/posComunhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comunhao"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/posComunhao"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/posComunhaoText"
+        android:layout_below="@id/comunhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/posComunhaoText"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/ritosFinais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/posComunhaoText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ritosFinais"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/recados"
+        android:layout_below="@id/ritosFinais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/recados"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/recadosText"
+        android:layout_below="@id/ritosFinais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/recadosText"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+</RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
